@@ -15,7 +15,7 @@ namespace APIRest.Services
 			restService = service;
 		}
 
-		public Task<List<EntryModel>> GetTasksAsync()
+		public Task<List<CountModel>> GetTasksAsync()
 		{
 			return restService.GetDataAsync();
 		}

@@ -6,6 +6,6 @@ namespace APIRest
 {
     public class Constants
     {
-        public static string RestUrl = "https://api.publicapis.org/entries";
+        public const string RestUrl = "https://api.publicapis.org/entries";
     }
 }
