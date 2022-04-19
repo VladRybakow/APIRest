@@ -50,7 +50,7 @@ namespace APIRest.Services
             return Items;
         }
 
-        Task<List<EntryModel>> IRestService.GetDataAsync()
+        Task<List<CountModel>> IRestService.GetDataAsync()
         {
             throw new NotImplementedException();
         }

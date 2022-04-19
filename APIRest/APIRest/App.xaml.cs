@@ -1,4 +1,5 @@
-﻿using APIRest.Views;
+﻿using APIRest.Services;
+using APIRest.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -7,6 +8,7 @@ namespace APIRest
 {
     public partial class App : Application
     {
+        public static EntryManager CountManager { get; private set; }
         public App()
         {
             InitializeComponent();
