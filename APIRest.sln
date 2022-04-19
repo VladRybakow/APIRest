@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIRest.Android", "APIRest\APIRest.Android\APIRest.Android.csproj", "{687EAE2E-02DB-443E-81A9-4E65454443A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIRest", "APIRest\APIRest\APIRest.csproj", "{16689644-EC78-45EB-A9B8-E3A6CAD9DDA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{687EAE2E-02DB-443E-81A9-4E65454443A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687EAE2E-02DB-443E-81A9-4E65454443A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687EAE2E-02DB-443E-81A9-4E65454443A9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{687EAE2E-02DB-443E-81A9-4E65454443A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687EAE2E-02DB-443E-81A9-4E65454443A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{687EAE2E-02DB-443E-81A9-4E65454443A9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{16689644-EC78-45EB-A9B8-E3A6CAD9DDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16689644-EC78-45EB-A9B8-E3A6CAD9DDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16689644-EC78-45EB-A9B8-E3A6CAD9DDA2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{16689644-EC78-45EB-A9B8-E3A6CAD9DDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16689644-EC78-45EB-A9B8-E3A6CAD9DDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16689644-EC78-45EB-A9B8-E3A6CAD9DDA2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7526E6E5-7754-4DD8-88DA-E801C73EC0DE}
+	EndGlobalSection
+EndGlobal
