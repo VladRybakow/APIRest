@@ -7,8 +7,8 @@
             <DataTemplate>
                 <ViewCell>
                     <StackLayout>
-                        <Entry Text="{Binding API}">
-                        </Entry>
+                        <Label Text="{Binding API}">
+                        </Label>
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>
