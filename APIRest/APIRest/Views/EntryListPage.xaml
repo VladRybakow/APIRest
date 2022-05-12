@@ -6,10 +6,8 @@
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                    <StackLayout>
-                        <Label Text="{Binding API}">
-                        </Label>
-                    </StackLayout>
+                    <Label Text="{Binding API}" TextColor="Black">
+                    </Label>
                 </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>

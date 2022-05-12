@@ -11,8 +11,7 @@ namespace APIRest
         public static EntryManager CountManager { get; private set; }
         public App()
         {
-            InitializeComponent();
-
+            CountManager = new EntryManager(new RestService());
             MainPage = new NavigationPage(new EntryListPage());
         }
 

@@ -14,7 +14,7 @@ namespace APIRest.Services
         HttpClient client;
         JsonSerializerOptions serializerOptions;
 
-        public List<CountModel> Items { get; private set; }
+        public CountModel Items { get; private set; }
 
         public RestService()
         {
@@ -26,9 +26,9 @@ namespace APIRest.Services
             };
         }
 
-        public async Task<List<CountModel>> GetDataAsync()
+        public async Task<List<EntryModel>> GetDataAsync()
         {
-            Items = new List<CountModel>();
+            Items = new CountModel();
 
             Uri uri = new Uri(string.Format(Constants.RestUrl, string.Empty));
 
@@ -39,7 +39,7 @@ namespace APIRest.Services
                 if (response.IsSuccessStatusCode)
                 {
                     string content = await response.Content.ReadAsStringAsync();
-                    Items = JsonSerializer.Deserialize<List<CountModel>>(content, serializerOptions);
+                    Items = JsonSerializer.Deserialize<CountModel>(content);
                 }
             }
             catch (Exception ex)
@@ -47,12 +47,7 @@ namespace APIRest.Services
                 Debug.WriteLine(ex.Message);
             }
 
-            return Items;
-        }
-
-        Task<List<CountModel>> IRestService.GetDataAsync()
-        {
-            throw new NotImplementedException();
+            return Items.entries;
         }
     }
 }

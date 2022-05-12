@@ -8,6 +8,6 @@ namespace APIRest.Services
 {
     public interface IRestService
     {
-        Task<List<CountModel>> GetDataAsync();
+        Task<List<EntryModel>> GetDataAsync();
     }
 }
